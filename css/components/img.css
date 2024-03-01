@@ -1,0 +1,112 @@
+.hero__img {
+  height: 548px;
+  width: 376px;
+  overflow: hidden;
+}
+
+.hero__img img {
+  width: 100%;
+}
+
+.technology__img {
+  height: 549px;
+  overflow: hidden;
+}
+.technology__img img {
+  width: 100%;
+}
+
+.speed__img {
+  height: 549px;
+  overflow: hidden;
+}
+.speed__img img {
+  height: 100%;
+}
+
+.darkmode__img {
+  width: 600px;
+  height: 486px;
+  overflow: hidden;
+  margin-bottom: 43px;
+  position: relative;
+}
+
+.darkmode__img::after {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 2px;
+  background-color: #e5e5e5;
+  bottom: 0;
+  right: 0;
+}
+
+.darkmode__img img {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+}
+.darkmode__icons {
+  color: #fff;
+  display: flex;
+  column-gap: 40px;
+}
+.darkmode__icons span {
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.darkmode__icon-dark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+}
+.darkmode__icon-light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+}
+
+.download__img {
+  max-width: 180px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+.download__img:hover {
+  opacity: 0.85;
+}
+.download__img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 764px) {
+  .hero__img {
+    display: none;
+  }
+  .technology__img {
+    display: none;
+  }
+  .speed__img {
+    display: none;
+  }
+  .darkmode__img {
+    width: 100%;
+  }
+
+  .darkmode__img::after {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .darkmode__img img {
+    margin-top: 5px;
+  }
+  .download__img img {
+    width: 160px;
+  }
+}

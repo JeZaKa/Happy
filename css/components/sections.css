@@ -1,0 +1,49 @@
+.hero-section {
+  padding-top: 13.2%;
+}
+
+.features-section {
+  padding: 100px 0;
+  background-color: #222222;
+}
+
+.technology__section {
+  padding-top: 6.95%;
+}
+
+.speed__section {
+  padding-top: 6.96%;
+  background-color: #f2f2f2;
+}
+
+.darkmode__section {
+  padding-top: 6.96%;
+  padding-bottom: 11.12%;
+  background-color: #222222;
+}
+
+.pricing__section {
+  padding: 6.96% 0;
+}
+
+.testimonials__section {
+  padding: 6.96% 0;
+  background-color: #f2f2f2;
+}
+
+.download__section {
+  padding-top: 6.96%;
+  padding-bottom: 9.75%;
+}
+
+.faq__section {
+  padding-top: 7.3%;
+  padding-bottom: 7.64%;
+  background-color: #e5e5e5;
+}
+
+@media screen and (max-width: 764px) {
+  .hero-section {
+    padding-top: 100px;
+  }
+}

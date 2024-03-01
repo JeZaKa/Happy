@@ -1,0 +1,62 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  color: #fff;
+  padding: 11px 25px;
+  max-width: 172px;
+  line-height: 129%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #414141;
+}
+
+.hero__btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 5px;
+}
+
+.pricing__card-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 129px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #fff;
+  transition: opacity 0.3s ease;
+}
+
+.pricing__card-btn:hover {
+  opacity: 0.8;
+}
+
+.pricing__card-btn--1 {
+  background-color: #0278ed;
+}
+.pricing__card-btn--2 {
+  background-color: #ff5437;
+}
+.pricing__card-btn--3 {
+  background-color: #ff9209;
+}
+
+@media screen and (max-width: 764px) {
+  .hero__btns {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,67 @@
+.pricing__row {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.pricing__card {
+  height: 338px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.pricing__card-title {
+  font-size: 18px;
+  line-height: 133%;
+}
+.pricing__card-title--1 {
+  color: #0278ed;
+}
+.pricing__card-title--2 {
+  color: #ff5437;
+}
+.pricing__card-title--3 {
+  color: #ff9209;
+}
+
+.pricing__card-amount {
+  font-size: 108px;
+  line-height: 115%;
+  letter-spacing: 0.07em;
+}
+.pricing__card-amount--1 {
+  color: #0278ed;
+}
+.pricing__card-amount--2 {
+  color: #ff5437;
+}
+.pricing__card-amount--3 {
+  color: #ff9209;
+}
+
+.pricing__card-period {
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 992px) {
+  .pricing__card:last-child {
+    grid-column: span 2;
+  }
+}
+@media screen and (max-width: 764px) {
+  .pricing__card {
+    grid-column: span 2;
+  }
+  .pricing__card-amount {
+    font-size: 80px;
+  }
+}

@@ -1,0 +1,14 @@
+.header__logo {
+  max-width: 120px;
+  margin-left: 16px;
+  z-index: 60;
+}
+
+.hero__logo {
+  max-width: 192px;
+  margin-bottom: 11px;
+}
+
+.hero__logo img {
+  width: 100%;
+}
