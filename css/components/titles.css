@@ -43,9 +43,6 @@
 .speed__title {
   margin-bottom: 15px;
 }
-.speed__title .subtitle {
-  max-width: 375px;
-}
 
 .speed__text {
   color: #666;
@@ -87,22 +84,12 @@
   font-size: 32px;
   line-height: 112%;
 }
-.faq__subtitle {
-  font-size: 15px;
-  line-height: 133%;
-  margin-bottom: 42px;
-}
 
 .title {
   font-size: 14px;
   line-height: 143%;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-}
-.subtitle {
-  font-size: 32px;
-  line-height: 112%;
-  max-width: 409px;
 }
 
 .text {
@@ -117,13 +104,6 @@
     text-align: center;
     font-size: 40px;
   }
-  .hero__subtitle {
-    text-align: center;
-  }
-  .subtitle {
-    font-size: 25px;
-  }
-
   .text {
     font-size: 14px;
   }
@@ -137,12 +117,6 @@
 @media screen and (max-width: 480px) {
   .hero__title {
     font-size: 24px;
-  }
-  .hero__subtitle {
-    font-size: 18px;
-  }
-  .subtitle {
-    font-size: 20px;
   }
   .title {
     font-size: 10px;

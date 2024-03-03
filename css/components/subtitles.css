@@ -1,5 +1,39 @@
+.subtitle {
+  font-size: 32px;
+  line-height: 112%;
+  max-width: 409px;
+}
+
 .hero__subtitle {
   line-height: 150%;
   max-width: 340px;
   margin-bottom: 20px;
+}
+
+.faq__subtitle {
+  font-size: 15px;
+  line-height: 133%;
+  margin-bottom: 42px;
+}
+
+.speed__title .subtitle {
+  max-width: 375px;
+}
+
+@media screen and (max-width: 764px) {
+  .hero__subtitle {
+    text-align: center;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero__subtitle {
+    font-size: 18px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
 }
