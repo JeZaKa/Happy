@@ -1,7 +1,9 @@
 const burger = document.querySelector('.burger');
 const nav = document.querySelector('.nav__wrapper');
 const overlay = document.querySelector('.overlay');
-const header = document.querySelector('.header')
+const header = document.querySelector('.header');
+
+
 
 const burgerMenu = () => {
   burger.classList.toggle('active')
@@ -22,6 +24,19 @@ const closeBurgerMenu = () => {
   document.body.classList.remove('disable-scroll')
   header.classList.remove('active')
 }
+
+
+const smoothScrollToSection = (targetSection) => {
+  closeBurgerMenu(); 
+  const targetElement = document.getElementById(targetSection);
+  if (targetElement) {
+    const targetPosition = targetElement.offsetTop;
+    window.scrollTo({
+      top: targetPosition,
+      behavior: 'smooth',
+    });
+  }
+};
 
 burger.addEventListener('click', burgerMenu);
 nav.addEventListener('click', closeBurgerMenu);
